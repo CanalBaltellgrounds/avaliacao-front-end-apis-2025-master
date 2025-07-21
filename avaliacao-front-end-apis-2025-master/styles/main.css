@@ -1,0 +1,18 @@
+body {
+  padding: 20px;
+}
+
+#loginContainer, #postsContainer {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #postsList .card {
+    margin-bottom: 1rem;
+  }
+}
